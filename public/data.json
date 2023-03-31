@@ -1,0 +1,44 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "author": "John Smith",
+            "title": "The Benefits of Functional Programming",
+            "coverImage": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "authorImage": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "readTime": "5 min",
+            "publishDate": "2022-03-01",
+            "hashtags": ["functionalprogramming", "softwaredevelopment"]
+        },
+        {
+            "id": 2,
+            "author": "Emily Jones",
+            "title": "Getting Started with React",
+            "coverImage": "https://images.pexels.com/photos/374559/pexels-photo-374559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "authorImage": "https://images.pexels.com/photos/3785110/pexels-photo-3785110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "readTime": "7 min",
+            "publishDate": "2022-02-15",
+            "hashtags": ["react", "frontenddevelopment"]
+        },
+        {
+            "id": 3,
+            "author": "David Lee",
+            "title": "Mastering Data Structures and Algorithms",
+            "coverImage": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "authorImage": "https://images.pexels.com/photos/3525908/pexels-photo-3525908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "readTime": "10 min",
+            "publishDate": "2022-01-30",
+            "hashtags": ["datastructures", "algorithms", "computerengineering"]
+        },
+        {
+            "id": 4,
+            "author": "Maria Rodriguez",
+            "title": "Building Scalable Web Applications with Node.js",
+            "coverImage": "https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "authorImage": "https://images.pexels.com/photos/3780030/pexels-photo-3780030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "readTime": "8 min",
+            "publishDate": "2022-01-15",
+            "hashtags": ["nodejs", "backenddevelopment", "webapplications"]
+        }
+    ]
+}
