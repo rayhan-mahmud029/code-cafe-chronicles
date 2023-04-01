@@ -3,6 +3,10 @@ import './BlogContainer.css'
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
 
+// Toast
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const BlogContainer = () => {
     const [blogs, setBlogs] = useState([]);
@@ -28,11 +32,12 @@ const BlogContainer = () => {
         const exist = bookmarks.find(bookmark => bookmark.id === blog.id);
         if (!exist){
           newArrayOfBookmarks = [...bookmarks, blog]
+          setBookmarks(newArrayOfBookmarks);
         }
         else{
-          alert('already added')
+          console.log('added');
+          toast('This Blog has been added to bookmark!!');
         }
-        setBookmarks(newArrayOfBookmarks);
     }
 
     const handleReadTime = (blog) =>{
@@ -59,6 +64,7 @@ const BlogContainer = () => {
                   readBlogs = {readBlogs}
                 ></Bookmark>
             </div>
+            <ToastContainer/>
         </div>
     );
 };
