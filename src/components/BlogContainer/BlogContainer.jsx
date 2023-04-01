@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './BlogContainer.css'
 import Blog from '../Blog/Blog';
+import Bookmark from '../Bookmark/Bookmark';
+
 
 const BlogContainer = () => {
     const [blogs, setBlogs] = useState([]);

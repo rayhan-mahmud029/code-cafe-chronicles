@@ -1,0 +1,26 @@
+.bookmark-container{
+    position: sticky;
+    top: 20px;
+}
+.time-spent {
+    background-color: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    color: #6047EC;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bookmarks {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.bookmarked-tab{
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
