@@ -1,0 +1,45 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.bookmark-section {
+    position: sticky;
+    top: 0;
+}
+.bookmark-section{
+    background-color: none;
+}
+
+@media  (max-width: 576px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blogs{
+        z-index: -1;
+    }
+    .bookmark-section{
+        height: 250px;
+        overflow-y: auto;
+        background-color: white;
+    }
+}
+
+@media   (min-width: 577px) and (max-width: 767.98px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blogs{
+        z-index: -1;
+    }
+    .bookmark-section{
+        height: 280px;
+        overflow-y: auto;
+        background-color: white;
+    }
+  }
+
