@@ -29,7 +29,7 @@ const Blog = (props) => {
                 </div>
               </div>
                 <div className='read-time'>
-                <p onClick={() => handleBookmark(blog)}>{readTime} to read <FontAwesomeIcon icon={faBookmark} className='bookmark-handler'/></p>
+                <p onClick={() => handleBookmark(blog)}>{readTime} min to read <FontAwesomeIcon icon={faBookmark} className='bookmark-handler'/></p>
                 </div>
               </div>
 

@@ -7,7 +7,7 @@ const Bookmark = (props) => {
     let spentTime = 0;
     for (const blog of readBlogs){
         console.log(spentTime);
-        const readTime = blog?.readTime[0]
+        const readTime = blog?.readTime;
         spentTime = spentTime + parseInt(readTime);
     }
     return (
