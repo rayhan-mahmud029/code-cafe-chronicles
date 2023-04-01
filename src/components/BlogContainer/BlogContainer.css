@@ -16,30 +16,16 @@
 @media  (max-width: 576px) {
     .blog-container {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-    .blogs{
-        z-index: -1;
-    }
-    .bookmark-section{
-        height: 250px;
-        overflow-y: auto;
-        background-color: white;
-    }
+
 }
 
 @media   (min-width: 577px) and (max-width: 767.98px) {
     .blog-container {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-    .blogs{
-        z-index: -1;
-    }
-    .bookmark-section{
-        height: 280px;
-        overflow-y: auto;
-        background-color: white;
-    }
+
   }
 
