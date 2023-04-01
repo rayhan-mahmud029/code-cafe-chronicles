@@ -1,0 +1,34 @@
+.qa-div{
+    background-color: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.question{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+
+
+@media  (max-width: 576px) {
+    .qa-div{
+      padding: 15px;
+    }
+    .question{
+        padding: 10px;
+    }
+    .qa-div h1{
+        font-size: 1.5rem;
+    }
+    .question h3{
+        font-size: 1rem;
+    }
+    .question p{
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,24 @@
+{
+    "qna" : [
+        {
+            "index" : 1,
+            "question": "Props vs State",
+            "answer": "In React, props and state are both used to manage data within a component.Props (short for properties) are passed down to a component from its parent and are read-only within the component. State, on the other hand, is used to manage data that can change within a component and can be updated using the setState() method."
+        },
+        {
+            "index" : 2,
+            "question": "How does useState work?",
+            "answer": "In React, props and state are both used to manage data within a component.Props (short for properties) are passed down to a component from its parent and are read-only within the component. State, on the other hand, is used to manage data that can change within a component and can be updated using the setState() method."
+        },
+        {
+            "index" : 3,
+            "question": "Purpose of useEffect other than fetching data",
+            "answer": "In React, props and state are both used to manage data within a component.Props (short for properties) are passed down to a component from its parent and are read-only within the component. State, on the other hand, is used to manage data that can change within a component and can be updated using the setState() method."
+        },
+        {
+            "index" : 4,
+            "question": "How Does React work?",
+            "answer": "In React, props and state are both used to manage data within a component.Props (short for properties) are passed down to a component from its parent and are read-only within the component. State, on the other hand, is used to manage data that can change within a component and can be updated using the setState() method."
+        }
+    ]
+}
